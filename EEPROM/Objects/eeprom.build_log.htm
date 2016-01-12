@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.16a
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Biruk B, Bk Inc, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.16a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC_505u2\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARM.DLL V5.16a
+Dialog DLL:      DARMP.DLL V1.51
+Target DLL:      UL2ARM.DLL V1.74.6.0
+Dialog DLL:      TARMP.DLL V1.51
+ 
+<h2>Project:</h2>
+Z:\home\bk\Desktop\MCU\EEPROM\eeprom.uvproj
+Project File Date:  12/10/2015
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC_505u2\Bin'
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling eeprom.cpp...
+spi.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+eeprom.h(11): warning:  #1-D: last line of file ends without a newline
+  void write_block (unsigned char* buffer, short int block);
+eeprom.cpp(78): warning:  #111-D: statement is unreachable
+        
+EASSERT_card;           // Deselect card to protect the chip reading to the next memory location
+eeprom.cpp(150): warning:  #177-D: variable "data" was declared but never referenced
+                        unsigned char opt, data;
+eeprom.cpp(194): warning:  #177-D: variable "i" was declared but never referenced
+        int i;
+eeprom.cpp: 5 warnings, 0 errors
+compiling spi.cpp...
+compiling lib.cpp...
+compiling printf.cpp...
+compiling main.cpp...
+spi.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+eeprom.h(11): warning:  #1-D: last line of file ends without a newline
+  void write_block (unsigned char* buffer, short int block);
+main.cpp(20): warning:  #177-D: variable "i" was declared but never referenced
+                int i =0;
+main.cpp(48): warning:  #111-D: statement is unreachable
+  return 0;
+main.cpp: 4 warnings, 0 errors
+linking...
+Program Size: Code=3000 RO-data=16 RW-data=0 ZI-data=1272  
+FromELF: creating hex file...
+".\Objects\eeprom.axf" - 0 Error(s), 9 Warning(s).
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

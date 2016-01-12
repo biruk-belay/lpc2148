@@ -1,0 +1,21 @@
+Dependencies for Project 'Timer', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559D2110)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 516"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (..\UART\system_init.c)(0x562F5DE0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\system_init.o --omf_browse .\objects\system_init.crf --depend .\objects\system_init.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (..\UART\system_init.h)(0x562EB95A)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x559D2156)
+F (..\UART\system_init.h)(0x562EB95A)()
+F (.\Timer.h)(0x5632BC35)()
+F (.\Timer.c)(0x56339FA2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (Timer.h)(0x5632BC35)
+F (.\main.c)(0x56339D77)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (system_init.h)(0x562ECE64)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x559D2156)
+I (Timer.h)(0x5632BC35)
+F (.\Uart_init.c)(0x5630143A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\uart_init.o --omf_browse .\objects\uart_init.crf --depend .\objects\uart_init.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (system_init.h)(0x562ECE64)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x559D2156)
+F (.\Uart_init.h)(0x5630143A)()

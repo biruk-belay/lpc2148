@@ -1,0 +1,17 @@
+Dependencies for Project 'Blink', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559D2110)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 516"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\Uart_init.c)(0x56512E4F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\uart_init.o --omf_browse .\objects\uart_init.crf --depend .\objects\uart_init.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (system_init.h)(0x562EB95A)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x559D2156)
+F (.\system_init.c)(0x562F5DE0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\system_init.o --omf_browse .\objects\system_init.crf --depend .\objects\system_init.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (system_init.h)(0x562EB95A)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x559D2156)
+F (.\system_init.h)(0x562EB95A)()
+F (.\main.c)(0x563BAF2E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (system_init.h)(0x562EB95A)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x559D2156)
+I (Uart_init.h)(0x563BAEF1)
+F (.\Uart_init.h)(0x563BAEF1)()

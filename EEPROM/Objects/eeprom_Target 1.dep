@@ -1,0 +1,26 @@
+Dependencies for Project 'eeprom', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559D2110)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 516"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\eeprom.cpp)(0x566CE3FA)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\eeprom.o --omf_browse .\objects\eeprom.crf --depend .\objects\eeprom.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (spi.h)(0x56679F3D)
+I (eeprom.h)(0x566A621C)
+I (lib.h)(0x56679F3D)
+I (printf.h)(0x56679F3D)
+F (..\MMC\spi.cpp)(0x566A22C4)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+F (..\MMC\lib.cpp)(0x566A0027)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\lib.o --omf_browse .\objects\lib.crf --depend .\objects\lib.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+F (..\MMC\printf.cpp)(0x56526699)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\printf.o --omf_browse .\objects\printf.crf --depend .\objects\printf.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (..\MMC\lib.h)(0x5668D30F)
+I (C:\Keil_v5\ARM\ARMCC_505u2\include\stdarg.h)(0x54C2A828)
+F (..\MMC\spi.h)(0x565687EC)()
+F (..\MMC\printf.h)(0x56526695)()
+F (.\eeprom.h)(0x566A621C)()
+F (..\MMC\lib.h)(0x5668D30F)()
+F (.\main.cpp)(0x566A63AD)(--cpp -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="516"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x559D2156)
+I (lib.h)(0x56679F3D)
+I (printf.h)(0x56679F3D)
+I (spi.h)(0x56679F3D)
+I (eeprom.h)(0x566A621C)
